@@ -55,3 +55,8 @@ a:active {
   display: block;
 }
 
+
+.navbar > li > a.active {
+  color: hsl(10, 50%, 50%);
+}
+
