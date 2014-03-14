@@ -1,0 +1,22 @@
+{
+  "name": "ic-ember",
+  "version": "0.0.0",
+  "description": "see gh-pages branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/instructure/ic-ember.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/instructure/ic-ember/issues"
+  },
+  "homepage": "https://github.com/instructure/ic-ember",
+  "dependencies": {
+    "gh-pages-site": "0.0.3"
+  }
+}

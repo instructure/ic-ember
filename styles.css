@@ -1,0 +1,82 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+#repositories {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 0px;
+  width: 300px;
+  background: hsl(200, 0%, 97%);
+  border-right: 1px solid hsl(200, 0%, 85%);
+  overflow: auto;
+}
+
+#doc {
+  position: absolute;
+  left: 301px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+#doc-frame {
+  border: 0;
+  width: 100%;
+  height: 100%
+}
+
+#repositories ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#repositories li {
+  padding: 0px;
+  position: relative;
+}
+
+.main-link {
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+  color: hsl(200, 0%, 30%);
+  padding: 16px;
+}
+
+.main-link:hover {
+  color: hsl(200, 50%, 50%);
+}
+
+.main-link.active {
+  color: hsl(10, 50%, 50%);
+}
+
+.repository-link {
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.repository-link path {
+  fill: hsl(200, 0%, 50%);
+}
+
+.repository-link:hover path {
+  fill: hsl(200, 50%, 50%);
+}
+
+#repositories li:hover .repository-link {
+  opacity: 1;
+}
