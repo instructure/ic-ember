@@ -63,7 +63,7 @@ h1 {
 }
 
 .repository-link {
-  opacity: 0;
+  display: none;
   position: absolute;
   right: 10px;
   top: 15px;
@@ -78,5 +78,5 @@ h1 {
 }
 
 #repositories li:hover .repository-link {
-  opacity: 1;
+  display: block;
 }
