@@ -55,8 +55,12 @@ a:active {
   display: block;
 }
 
-
 .navbar > li > a.active {
   color: hsl(10, 50%, 50%);
+}
+
+.source-link {
+  display: inline-block;
+  margin: 20px 40px;
 }
 
