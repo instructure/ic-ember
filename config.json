@@ -1,6 +1,7 @@
 {
   "repositories": [
     "instructure/ic-ajax",
+    "instructure/ic-droppable",
     "instructure/ic-buttonset",
     "instructure/ic-datatable",
     "instructure/ic-lazy-list",
