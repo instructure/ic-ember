@@ -1,16 +1,9 @@
 {
   "repositories": [
-    "instructure/ic-ajax",
     "instructure/ic-droppable",
-    "instructure/ic-buttonset",
-    "instructure/ic-datatable",
-    "instructure/ic-lazy-list",
     "instructure/ic-menu",
     "instructure/ic-modal",
-    "instructure/ic-popover",
-    "instructure/ic-styled",
-    "instructure/ic-tabs",
-    "rpflorence/ember-qunit"
+    "instructure/ic-tabs"
   ]
 }
 
