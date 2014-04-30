@@ -3,7 +3,8 @@
     "instructure/ic-droppable",
     "instructure/ic-menu",
     "instructure/ic-modal",
-    "instructure/ic-tabs"
+    "instructure/ic-tabs",
+    "instructure/ic-autocomplete"
   ]
 }
 
